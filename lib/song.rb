@@ -39,9 +39,8 @@ def self.artist_count
       artist_hash[art] +=1 
     else 
       artist_hash[art] = 1
-      
-end
-end
+     end
+   end
 artist_hash
-end
+ end
 end
