@@ -33,6 +33,14 @@ end
 genre_hash
 end 
 def self.artist_count
+  artist_hash = {}
+  @@artists.each do |art| 
+    if artist_hash[art] 
+      artist_hash[art] +=1 
+    else 
+      artist_hash[art] = 1
+      
+end
 end
 end
 
